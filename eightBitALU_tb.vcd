@@ -1,0 +1,72 @@
+$date
+	Sun Mar 13 21:52:18 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module eightBitALU_tb $end
+$var wire 1 ! swap $end
+$var wire 8 " out [7:0] $end
+$var reg 3 # code [2:0] $end
+$var reg 8 $ inputA [7:0] $end
+$var reg 8 % inputB [7:0] $end
+$var integer 32 & i [31:0] $end
+$scope module UTT $end
+$var wire 3 ' code [2:0] $end
+$var wire 8 ( inputA [7:0] $end
+$var wire 8 ) inputB [7:0] $end
+$var reg 8 * result [7:0] $end
+$var reg 1 ! swap $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10100101 *
+b10000001 )
+b100100 (
+b0 '
+b0 &
+b10000001 %
+b100100 $
+b0 #
+b10100101 "
+0!
+$end
+#20
+b1011010 "
+b1011010 *
+1!
+b1 #
+b1 '
+b1100011 %
+b1100011 )
+b1001 $
+b1001 (
+b1 &
+#40
+0!
+b101001 "
+b101001 *
+b10 #
+b10 '
+b10001101 %
+b10001101 )
+b1101 $
+b1101 (
+b10 &
+#60
+b101 "
+b101 *
+b11 #
+b11 '
+b10010 %
+b10010 )
+b1100101 $
+b1100101 (
+b11 &
+#80
+b100 &
